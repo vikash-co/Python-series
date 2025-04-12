@@ -8,6 +8,7 @@ lives = 6
 
 
 while lives >0 and '_' in guessed_word:
+    print("\n" + " ".join(guessed_word))
     guess = input("Enter a letter: ").lower()
     guessed_letters.append(guess)
 
